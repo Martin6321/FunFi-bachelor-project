@@ -1,0 +1,4 @@
+/build
+*~
+*LocalConfig.java
+/app/google-services.json

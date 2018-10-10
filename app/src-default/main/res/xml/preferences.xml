@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/sensing_hardware">
+        <CheckBoxPreference
+            android:key="settings_gps_on"
+            android:selectable="false"
+            android:title="@string/gps_hardware"
+            android:summary="@string/gps_hardware_note" />
+        <CheckBoxPreference
+            android:key="settings_agps_on"
+            android:selectable="false"
+            android:title="@string/agps_hardware"
+            android:summary="@string/agps_hardware_note" />
+        <CheckBoxPreference
+            android:key="settings_wifi_on"
+            android:selectable="false"
+            android:title="@string/wifi_hardware"
+            android:summary="@string/wifi_hardware_note" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/sending_hardware">
+        <CheckBoxPreference
+            android:key="settings_synchronization_on"
+            android:summary="@string/synchronization_hardware_note"
+            android:selectable="false"
+            android:title="@string/synchronization_hardware" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/sensing_battery">
+        <ListPreference
+
+            android:key="settings_min_battery_level"
+            android:title="@string/battery_stop_sensing"
+            android:summary="@string/battery_stop_sensing_note"
+            android:dialogTitle="@string/battery_stop_sensing"
+            android:entries="@array/battery_level_labels"
+            android:entryValues="@array/battery_level_values"
+            android:defaultValue="@string/battery_level_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_card_1"
+                    android:layout_gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    card_view:contentPadding="10dp"
+                    card_view:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_launcher"
+                            android:id="@+id/profile_icon" />
+
+                        <TextView
+                            android:id="@+id/surnname_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile_surname"
+                            android:textStyle="bold"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/surname_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:gravity="end"/>
+
+                        <TextView
+                            android:id="@+id/lastname_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile_last_name"
+                            android:textStyle="bold"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/lastname_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:gravity="end"/>
+
+                        <TextView
+                            android:id="@+id/username_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile_name"
+                            android:textStyle="bold"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/username_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:gravity="end"/>
+
+                        <TextView
+                            android:id="@+id/email_label"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/profile_email"
+                            android:textStyle="bold"
+                            android:gravity="start"/>
+
+                        <TextView
+                            android:id="@+id/email_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:gravity="end"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_card_2"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:contentPadding="10dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/sensing_status_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sensing_status"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/sensing_status_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/time_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/time_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>                  
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_card_3"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:contentPadding="10dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/pending_location_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pending_location"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/pending_location_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/pending_wifilocation_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pending_wifilocation"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/pending_wifilocation_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/pending_wifi_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pending_wifi"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/pending_wifi_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/last_sync_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/last_sync"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/last_sync_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_card_4"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                card_view:contentPadding="10dp"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/location_score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location_score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/location_score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/wifilocation_score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wifilocation_score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/wifilocation_score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/wifi_score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wifi_score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/wifi_score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/rating_score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rating_score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/rating_score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                    <TextView
+                        android:id="@+id/other_rating_score_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/other_rating_score"
+                        android:textStyle="bold"
+                        android:gravity="start"/>
+
+                    <TextView
+                        android:id="@+id/other_rating_score_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

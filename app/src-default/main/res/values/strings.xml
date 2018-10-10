@@ -1,0 +1,166 @@
+<resources>
+    <string name="search_hint">Hľadať wifi...</string>
+
+    <string name="app_name">FunFi</string>
+    <string name="open_funfi">Otvoriť FunFi</string>
+    <string name="funfi_init_test">FunFi - Úvodný test</string>
+
+    <string name="no_data_available">Ohodnotené všetky WiFi siete. \n\nGratulujem.\n\nĎalšie budú k dispozícii už čoskoro.</string>
+    <string name="loading_data">Načítavame nové WiFi siete. \n\nChvíľu to trvá.\n\nPráve sťahujeme nové názvy WiFi sietí na hodnotenie.
+        Kľudne môžete aplikáciu minimalizovať či zavrieť dáta sa sťahujú na pozadí.</string>
+
+    <string name="init_download_title">Sťahovanie údajov</string>
+    <string name="init_download_ticker">Údaje sa sťahujú</string>
+    <string name="init_download_download">Na pozadí sa sťahujú WiFi siete...</string>
+    <string name="init_inserting_title">Import údajov</string>
+    <string name="init_inserting_ticker">Importujú sa údaje</string>
+    <string name="init_inserting_download">Na pozadí sa importujú WiFi siete...</string>
+    <string name="init_finish_title">FunFi údaje stiahnuté</string>
+    <string name="init_finish_ticker">Údaje stiahnuté</string>
+    <string name="init_finish_download">WiFi siete boli stiahnuté úspešne</string>
+    <string name="init_exception_title">FunFi údaje neboli stiahnuté</string>
+    <string name="init_exception_ticker">Neúspešné/prerušené sťahovanie</string>
+
+
+    <string name="drawer_open">Otvoriť</string>
+    <string name="drawer_close">Zatvoriť</string>
+    <string name="profile_name">Užívateľské meno</string>
+    <string name="profile_surname">Meno</string>
+    <string name="profile_last_name">Priezvisko</string>
+    <string name="profile_email">E-mailová adresa</string>
+    <string name="profile_icon_desc">Ikona</string>
+    <string name="password_label">Heslo</string>
+    <string name="menu_item_text">Položka menu</string>
+
+    <string name="rating_like">Vtipné</string>
+    <string name="rating_dislike">Nudné</string>
+    <string name="rating_nolike">Nehodnotené</string>
+
+    <string name="leaderboard">Leaderboard</string>
+    <string name="score">Celkový počet bodov</string>
+    <string name="location_score">Lokácie</string>
+    <string name="wifilocation_score">WiFi potvrdenia</string>
+    <string name="wifi_score">Nové WiFi</string>
+    <string name="rating_score">Moje hodnotenia</string>
+    <string name="other_rating_score">Hodnotenia mojich</string>
+
+    <string name="pending_location">Neodovzdané lokácie</string>
+    <string name="pending_wifilocation">Neodovzdané wifi lokácie</string>
+    <string name="pending_wifi">Neodovzdané nové wifi siete</string>
+    <string name="last_sync">Posledná synchronizácia</string>
+
+    <string name="sensing_status">Stav</string>
+    <string name="time">Čas</string>
+
+    <string name="sensing_hardware">Zbieranie bodov</string>
+    <string name="sending_hardware">Odosielanie bodov</string>
+
+    <string name="synchronization_hardware">Synchronizácia</string>
+    <string name="synchronization_hardware_note">Synchronizáciu je dôležité mať povolenú. Inak nebudete dostávať nové WiFi siete na hodnotenie.
+        Ak máte synchronizáciu vypnutú, tak sa vám nezaznamenávajú hodnotenia ani body na server !! Pre získanie bodov je potrebné ju mať povolenú.</string>
+    <string name="gps_hardware">GPS</string>
+    <string name="agps_hardware">A-GPS</string>
+    <string name="wifi_hardware">WiFi</string>
+    <string name="gps_hardware_note">Zapnuté GPS je potrebné pre zbieranie bodov.</string>
+    <string name="agps_hardware_note">Zapnuté A-GPS je potrebné pre zbieranie bodov ak nie je možné získať GPS polohu.</string>
+    <string name="wifi_hardware_note">WiFi je potrebné mať zapnuté aby ste mohli nájsť nové WiFi siete ako aj na ziskavanie bodov za potvrdenia.</string>
+
+    <string name="sensing_battery">Úspora batérie</string>
+    <string name="battery_stop_sensing">Min. level batérie</string>
+    <string name="battery_stop_sensing_note">Zvoľte minimálnu hranicu nabitia batérie, pod ktorou prestane zbieranie údajov. Ak sa mobil nabíja, tak hranica neplatí.</string>
+    <string-array name="battery_level_labels">
+        <item>5 %</item>
+        <item>10 %</item>
+        <item>15 %</item>
+        <item>20 %</item>
+    </string-array>
+    <string-array name="battery_level_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="battery_level_default">10</string>
+
+    <string name="refresh">Obnoviť</string>
+
+    <string name="crash_toast_text">Ooooops ! Nastala neočakávaná chyba, keď bude zariadenie pripojené na internet chyba sa odošle aby sme ju vedeli vyriešiť !</string>
+
+    <string name="about_header_1">FunFi</string>
+    <string name="about_text_1">
+        Si pripravený zistiť aké šialené, nezmyselné a neslušné názvy WiFi sietí môžu existovať ?
+        Ty teraz máš šancu ich hľadať a hodnotiť a stať sa majstrom WiFi. Ešte stále čítaš ?
+        Zapni WiFi a GPS a môžeme začať...
+    </string>
+
+    <string name="about_header_0">Ako používať aplikáciu ??</string>
+    <string name="about_text_0">
+       V sekcii "FunFi" máš zoznam názvov WiFi sietí, cieľom je aby si hlasoval či ti pripadá názov siete vtipný alebo nudný.
+        Ako teda zahlasujem ? Hlasuje sa jednoducho podržaním názvu WiFi siete a následným potiahnutím do ľavej alebo pravej strany.
+
+        \n\n
+
+        V sekcii "Archív" máš históriu ako si hlasoval. Prípadne môžeš svoj názor následne zmeniť.
+
+        \n\n
+
+        V sekcii "LeaderBoard" máš rebríček užívateľov v akom poriadí sú umiestnení. Tvôj počet nazbieraných bodov si môžeš pozrieť v "Profile".
+
+        \n\n
+
+        Do "Profilu" sa dostaneš kliknutím na svoje meno alebo e-mailovú adresu v hornej časti menu.
+    </string>
+
+    <string name="about_header_2">FunFi body</string>
+    <string name="about_text_2">
+        Zbieraj a hodnoť názvy WiFi sietí v tvojom okolí.
+        Za každé hodnotenie dostávaš 1 bod a keď niekto ohodnotení WiFi sieť, ktorú si objavil ako prvý dostávaš 2 body.
+        Za každú novú WiFi sieť, ktorú si objavil ako prvý dostávaš 10 bodov ! Za každú odchytenú pozíciu
+        WiFi siete je tiež bod. Ešte čítaš ?? Tak zapni WiFi a ideme na to.
+    </string>
+
+    <string name="about_header_3">Tvoje hodnotenie</string>
+    <string name="about_text_3">
+        V ringu máš vždy dva rôzne názvy WiFi sietí, ktorá má zábavnejší, originálnejší, neslušnejší, ... názov?
+    </string>
+
+    <string name="about_header_4">Hodnotenie tvojej WiFi</string>
+    <string name="about_text_4">
+       Ak si nálezcom WiFi sietí, tak keď sa niekto rozhodne pre tvoju WiFi sieť automaticky dostávaš
+        2 body bez akejkoľvek práce. Nie je to super ? Tak poď zbierať vlastné WiFi siete aby ti body pribúdali sami od seba ...
+    </string>
+
+    <string name="about_header_5">Nová WiFi</string>
+    <string name="about_text_5">
+        Ak máš zapnutú a povolenú "Polohu" v mobile a súčasne WiFi (nemusíš byť na žiadnu pripojený)
+        a nájdeš názov WiFi siete, ktorý ešte nikto nenašiel a ako prvý ho odošleš, tak získavaš 10 bodov!
+        Pozor, ak pridlho čakáš na odoslanie údajov, už ta mohol niekto predbehnúť. Tak najlepšie byť stále online.
+    </string>
+
+
+    <string name="about_header_6">WiFi potvrdenie</string>
+    <string name="about_text_6">
+        Ak máš zapnutú a povolenú "Polohu" v mobile a súčasne WiFi (nemusíš byť na žiadnu pripojený),
+        tak overuješ či WiFi siete naozaj existujú a nie sú len fake-ové. Za každé overenie je 1 bod, počet overenia WiFi siete je neobmedzený.
+        Tak zapni GPS, WiFi a body pribúdajú ...
+    </string>
+
+    <string name="about_header_7">Náš tím</string>
+    <string name="about_text_7">
+        Tím líder - Martin Drozda\n\nAj vďaka jemu sme mohli rozdať mobily a tablety a tiež robiť takéto aplikácie. Ďakujeme!
+
+        \n\n\n
+
+        Tvorca - Maroš Čavojský\n\n90% všetkého čo vidíš a používaš, je práca mňa a nášho tímu takže sa teším na feedback ;)
+
+        \n\n\n
+
+        Výskumník - Stanislav Marček\n\nneúnavne testuje nové verzie a hľadá vylepšenia a chyby...
+
+        \n\n\n
+
+        Chceš byť súčastou nášho tímu ? Pošli nám email a veľmi radi sa stretneme na pohovore o tvojich skúsenostiach a vedomostiach. ;)
+    </string>
+
+
+</resources>

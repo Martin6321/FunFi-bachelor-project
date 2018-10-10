@@ -1,0 +1,14 @@
+CHANGELOG FunFi
+
+Prosim udrzujete a doplnujte ChangeLog, ked ste upravili logiku alebo
+zasadne veci do aplikacie. Dakujem.
+------Example--------
+YYYY-MM-DD  John Doe  <johndoe@example.com>
+
+    * myfile.java (myfunction): my changes made
+    additional changes ...
+
+    * myfile.java (unrelated_change): my changes made
+    to myfile.java but completely unrelated to the above
+
+    * anotherfile.java (somefunction): more changes

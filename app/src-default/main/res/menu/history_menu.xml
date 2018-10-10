@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_dislike"
+        android:title="@string/rating_dislike"
+        android:icon="@drawable/ic_thumb_down_outline"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/action_like"
+        android:title="@string/rating_like"
+        android:icon="@drawable/ic_thumb_up_outline"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+</menu>

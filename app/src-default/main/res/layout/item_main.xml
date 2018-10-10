@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeight"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/item_row_bg"
+    android:foreground="?selectableItemBackground">
+<!--
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_left"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+-->
+    <TextView
+        android:id="@+id/item_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/item_bottom_left"
+        android:textColor="@color/swipeLike"
+        android:paddingLeft="10dp"
+        android:layout_gravity="left|bottom" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/item_bottom_center"
+        android:background="@drawable/myborder5"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/swipeDislike"
+        android:id="@+id/item_bottom_right"
+        android:paddingRight="10dp"
+        android:layout_gravity="right|bottom" />
+
+
+</FrameLayout>
